@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/imgs/weather-circle.png">
+  <link rel="stylesheet" href="/css/styles.css">
+  <title>Weather App</title>
+  <script defer src="/js/scripts.js"></script>
+</head>
+<body>
+  {{>header}}  
+  <p>Your current weather app!</p>
+  <form>
+    <input type="text" placeholder="Enter location"/>
+    <button>Search</button>
+  </form>
+  <p><span id="locationReport"></span><br />
+  <span id="forecast"></span></p>
+  {{>footer}}
+</body>
+</html>
