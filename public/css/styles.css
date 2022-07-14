@@ -10,10 +10,11 @@ body {
   font-family: sans-serif;
   color: #fff;
   padding: 0 2rem;
-  max-width: 650px;
+  max-width: 750px;
   margin: auto;
   display: flex;
   flex-direction: column;
+  line-height: 1.5;
 }
 
 img.profile-pic {
